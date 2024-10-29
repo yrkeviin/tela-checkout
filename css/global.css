@@ -108,3 +108,40 @@ body {
     height: 1px;
     background-color: var(--line-color);
 }
+
+.contact-information {
+    display: flex;
+    margin-top: 40px;
+}
+
+.name {
+    margin-right: 50px;
+    width: 485px;
+    height: 40px;
+}
+
+.name input, .infos input {
+    width: 450px;
+    height: 40px;
+    outline-style: none;
+    border: var(--line-color) 2px solid;
+    border-radius: 5px;
+    padding: 0 10px;
+}
+
+.name input:hover, .infos input:hover {
+    width: 450px;
+    height: 40px;
+    outline-style: none;
+    border: var(--primary-color) 2px solid;
+    border-radius: 5px;
+    padding: 0 10px;
+}
+
+.name p, .infos p {
+    margin-bottom: 10px;
+}
+
+.principal {
+    margin-bottom: 40px;
+}
