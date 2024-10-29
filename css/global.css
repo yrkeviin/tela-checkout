@@ -109,6 +109,10 @@ body {
     background-color: var(--line-color);
 }
 
+.title-contact-information {
+    color: var(--text-color);
+}
+
 .contact-information {
     display: flex;
     margin-top: 40px;
@@ -144,4 +148,60 @@ body {
 
 .principal {
     margin-bottom: 40px;
+}
+
+.title-delivery-information {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.title-delivery-information h3 {
+    color: var(--text-color);
+}
+
+.delivery-input {
+    display: flex;
+}
+
+.delivery-input2 {
+    display: flex;
+    margin-top: 40px;
+}
+
+.date-delivery input, .time-delivery input {
+    width: 450px;
+    height: 40px;
+    outline-style: none;
+    border: var(--line-color) 2px solid;
+    border-radius: 5px;
+    padding: 0 10px;
+}
+
+.city-delivery input, .addres-delivery input, .zip-delivery input {
+    width: 250px;
+    height: 40px;
+    outline-style: none;
+    border: var(--line-color) 2px solid;
+    border-radius: 5px;
+    padding: 0 10px;
+}
+
+.date-delivery, .time-delivery {
+    margin-right: 70px;
+}
+
+.city-delivery, .addres-delivery {
+    margin-right: 110px;
+}
+
+.date-delivery p, .time-delivery p, .city-delivery p, .addres-delivery p, .zip-delivery p {
+    margin-bottom: 10px;
+}
+
+.date-delivery input:hover, .time-delivery input:hover, .city-delivery input:hover, .addres-delivery input:hover, .zip-delivery input:hover {
+    height: 40px;
+    outline-style: none;
+    border: var(--primary-color) 2px solid;
+    border-radius: 5px;
+    padding: 0 10px;
 }
